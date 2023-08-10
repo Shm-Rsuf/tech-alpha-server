@@ -3,6 +3,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
+const productRoute = require("./routes/product.route");
+
 /* variables */
 const port = process.env.PORT || 4000;
 
@@ -13,10 +15,8 @@ const app = express();
 app.use(express.json());
 app.use(cors({ credentials: true }));
 
-/* test api */
-app.get("/", (req, res) => {
-  res.status(200).json({ message: "welcome to our tech alpha server" });
-});
+/* bypass api */
+app.use("/product", productRoute);
 
 /* connect to database */
 mongoose
