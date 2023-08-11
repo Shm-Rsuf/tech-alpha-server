@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors({ credentials: true }));
 
 /* bypass api */
-app.use("/product", productRoute);
+app.use("api/products", productRoute);
 
 /* connect to database */
 mongoose
