@@ -1,7 +1,7 @@
 
 ## Tech Alpha
 
- Welcome to Tech-Alpha, A MERN stack e-commerce platform that redefines the online shopping experience. Seamlessly merging the power of MongoDB, Express.js, React, and Node.js, Tech-Alpha offers a dynamic and feature-rich vironment for customers.
+Tech-Alpha is a cutting-edge backend server that forms the backbone of your digital infrastructure. With its powerful and dynamic architecture, Tech-Alpha empowers your applications and services to deliver seamless, high-performance experiences to users. This server is built with next.js, expresse, mongoose, cors and dotenv.
  
 ## Features
 
